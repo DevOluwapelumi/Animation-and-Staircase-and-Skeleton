@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+}
+.box {
+    border: 1px solid;
+    background-color: chartreuse;
+}
+.block {
+    display: flex;
+    padding-left: 80px;
+    padding-top:80px;
+}
+.block :nth-child(1) {
+    height: 4in;
+    width: 60px;
+}
+.block :nth-child(2) {
+    margin-top: 40px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(3) {
+    margin-top: 80px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(4) {
+    margin-top: 120px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(5) {
+    margin-top: 160px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(6) {
+    margin-top:200px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(7) {
+    margin-top: 240px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(8) {
+    margin-top: 280px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(9) {
+    margin-top: 320px;
+    height: 3.6.6in;
+    width: 60px;
+}
+.block :nth-child(10) {
+    margin-top: 360px;
+    height: 3.6.6in;
+    width: 60px;
+}
+ #container {
+     display: flex;
+ }
+ .two {
+     flex-direction: row-reverse;
+ }
